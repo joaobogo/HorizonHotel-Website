@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboardd</title>
+
+    <!-- Link to css -->
+    <link rel="stylesheet" href="./admin.css">
+    <link rel="stylesheet" href="../index.css">
+    <!-- Link to icons -->
+   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link swiper css -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+</head>
+<body>
+
+    <div class="adminDasboard flex">
+
+        <div class="sideMenu">
+            <div class="logoDiv flex">
+                <!-- <img src="../Assets/logo.png" alt="Logo Image"> -->
+                <h3>Hotel Horizon</h3>
+            </div>
+          <div class="menu">
+            <ul class="menuItem grid">
+                <li class="menuList flex">
+                    <a href="admin.html" class="menuLink linkActive flex">
+                        <i class="uil uil-create-dashboard icon"></i>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex">
+                    <a href="./properties.html" class="menuLink flex">
+                        <i class="uil uil-building icon"></i>
+                        <span class="text">Room & Suites</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="bookings.html" class="menuLink flex">
+                        <i class="uil uil-book-open icon"></i>
+                        <span class="text">Bookings</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex">
+                    <a href="todo.html" class="menuLink flex">
+                        <i class="uil uil-clipboard-alt icon"></i>
+                        <span class="text">To do</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="guests.html" class="menuLink flex">
+                        <i class="uil uil-user-circle icon"></i>
+                        <span class="text">Guests</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="admins.html" class="menuLink flex">
+                        <i class="uil uil-key-skeleton icon"></i>
+                        <span class="text">Administrators</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="reviews.html" class="menuLink flex">
+                        <i class="uil uil-comment-message icon"></i>
+                        <span class="text">Reviews</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="careers.html" class="menuLink flex">
+                        <i class="uil uil-graduation-cap icon"></i>
+                        <span class="text">Careers</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="calender.html" class="menuLink flex">
+                        <i class="uil uil-calendar-alt icon"></i>
+                        <span class="text">Calendar</span>
+                    </a>
+                </li> 
+
+                <li class="menuList flex"> 
+                    <a href="updates.html" class="menuLink flex">
+                        <i class="uil uil-bell icon"></i>
+                        <span class="text">Updates</span>
+                    </a>
+                </li> 
+            </ul>
+          </div>
+
+          <div class="accountDiv">
+            <div class="imgDiv">
+                <img src="../Assets/user (8).png" alt="Admin Image">
+            </div>
+            <span class="name">Ali Mohammed</span>
+            <p>alimohammed@outlook.com</p>
+
+            <div class="accountBtns flex">
+                <a href="../login.html">
+                    <button class="btn bg flex">
+                        <i class="uil uil-sign-out-alt icon"></i>
+                        Log Out
+                    </button>
+                </a>
+                <a href="settings.html">
+                    <button class="btn bg flex">
+                        <i class="uil uil-setting icon"></i>
+                    </button>
+                </a>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="agentsBody">
+            <div class="top flex">
+                <h1 class="titleText">
+                    Verified Administrators
+                </h1>
+                <p>Hi João Bogo, did you say Good morning to any of them today <i class="uil uil-grin icon"></i>?</p>
+
+                <a href="addAgent.html"><button  class="flex btn bg">
+                    <i class="uil uil-plus"></i> Add New
+                </button></a>
+            </div>
+
+            <div class="agentsDiv">
+                <table>
+                    <tr>
+                        <th>Admin ID</th>
+                        <th>Summary</th>
+                        <th>Contact</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Username</th>
+                        <th>Details</th>
+                    </tr>
+
+                    <tr>
+                        <td class="id">001</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (12).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">002</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (14).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">003</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (9).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="propertyDetails.html">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="updateProperty.html">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">004</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (15).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">005</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (16).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">006</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (19).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">007</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (20).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="id">008</td>
+                        <td class="tenantInfo flex">
+                            <div class="imgDiv">
+                                <img src="../Assets/user (13).png" alt="Tenant Image">
+                            </div>
+                            <div class="info">
+                                <span class="name">Nayeare Tauin</span>
+
+                                <span class="nationlity">India</span>
+                                <p>Emp ID: 223435</p>
+                            </div>
+                        </td>
+
+                        <td class="sDate">
+                            <span class="date flex"><i class="uil uil-phone icon"></i>+444 909 884</span>
+                           
+                        </td>
+
+                        <td class="rentFee">
+                            <span class="fees flex"><i class="uil uil-envelope icon"></i>example@outlook.com</span>
+                        </td>
+
+                        <td class="eDate">
+                            <span class="date flex"><i class="uil uil-key-skeleton icon"></i> sdw3344</span>
+                        </td>
+
+                        <td class="debt">
+                            <span class="fees flex"><i class="uil uil-grin-tongue-wink icon"></i>nelcom2</span>
+                        </td>
+
+                        <td class="action">
+                            <a href="propertyDetails.html">
+                                <i class="uil uil-file-info-alt icon"></i>
+                            </a>
+                            <a href="updateProperty.html">
+                                <i class="uil uil-edit icon"></i>
+                            </a>
+                            <a href="">
+                                <i class="uil uil-trash-alt icon"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </div>    
+    </div>    
+
+</body>
+</html>  
